@@ -49,7 +49,7 @@ export default function Layout({
   const disableCta = ['/schedule', '/speakers', '/expo', '/jobs'];
   return (
     <>
-      <div className={styles.background}>
+      <div className={styles.background + " mx-auto max-w-5xl sm:px-6 lg:px-8"}>
         {!hideNav && (
           <header className={cn(styles.header)}>
             <div className={styles['header-logos']}>

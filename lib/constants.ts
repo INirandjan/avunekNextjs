@@ -40,34 +40,11 @@ export const CODE_OF_CONDUCT =
 export const REPO = 'https://github.com/vercel/virtual-event-starter-kit';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
+
   {
-    name: 'Live Stage',
-    route: '/stage/a'
+    name: 'Link',
+    route: '#'
   },
-  {
-    name: 'Vercel Stage',
-    route: '/stage/c'
-  },
-  {
-    name: '100ms Stage',
-    route: '/stage/m'
-  },
-  {
-    name: 'Schedule',
-    route: '/schedule'
-  },
-  {
-    name: 'Speakers',
-    route: '/speakers'
-  },
-  {
-    name: 'Expo',
-    route: '/expo'
-  },
-  {
-    name: 'Jobs',
-    route: '/jobs'
-  }
 ];
 
 export type TicketGenerationState = 'default' | 'loading';

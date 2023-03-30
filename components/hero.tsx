@@ -134,7 +134,7 @@ export default function Hero() {
         {SITE_DESCRIPTION}
       </h2>
       <div className={cn(styleUtils.appear, styleUtils['appear-fourth'], styles.info)}>
-        <p>Wat voor bedrijf ben jij?</p>
+        <p className="font-semibold">Wat voor bedrijf ben jij?</p>
         <div className={styles['description-separator']} />
         <div className={styles['geist-container']}>
           <span className={cn(styles['button-bg'], styles['bg-1'],)}></span>

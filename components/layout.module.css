@@ -46,7 +46,7 @@
   align-items: center;
   justify-content: space-between;
   background: var(--sidebar);
-  border-bottom: 1px solid var(--foreground);
+  /* border-bottom: 1px solid var(--foreground); */
   height: var(--header-height);
   z-index: 2;
 }

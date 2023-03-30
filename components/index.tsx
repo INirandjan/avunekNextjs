@@ -21,7 +21,7 @@ import Layout from './layout';
 import ConfContainer from './conf-container';
 import Hero from './hero';
 import Form from './form';
-import Testsection from './testsection';
+import FeatureSection from './featuresection';
 import LearnMore from './learn-more';
 
 type Props = {
@@ -51,8 +51,8 @@ export default function Conf({
           {pageState === 'registration' && !sharePage ? (
             <>
               <Hero />
-              <Testsection />
-              <Form />
+              <FeatureSection />
+              {/* <Form /> */}
             </>
           ) : (
             <Ticket
